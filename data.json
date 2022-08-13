@@ -1,0 +1,24 @@
+{
+  "name": "",
+  "type": "",
+  "city": "",
+  "address": "",
+  "distance": "",
+  "photos": "",
+  "title": "",
+  "description": "",
+  "rating": "",
+  "rooms": "",
+  "cheapestPrice": "",
+  "featured": ""
+},
+{
+"name": "Hotel John",
+"type": "hotel",
+"city": "berlin",
+"address": "somewhere",
+"distance": "500",
+"title": "Best Hotel in the City",
+"desc": "hotel description",
+"cheapestPrice": 100
+}
