@@ -7,6 +7,8 @@ import {
     UPDATE_HOTEL_BY_ID
 } from "../_responses/hotel.response.js";
 
+import {verifyToken} from "../middleware/JwtUtil.js";
+
 class HotelController {
 
     getAllHotel = async (req, res) => {
@@ -37,7 +39,7 @@ class HotelController {
             const hotel = await newHotel.save();
             return res.status(200).json(CREATE_HOTEL.SUCCESS(hotel));
         } catch (error) {
-            // return res.status(500).json(CREATE_HOTEL.FAILURE(error));
+            return res.status(500).json(CREATE_HOTEL.FAILURE(error));
         }
     };
 

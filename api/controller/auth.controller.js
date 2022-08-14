@@ -32,7 +32,14 @@ class AuthController {
                 const checkPassword = await bcrypt.compareSync(req.body.password, user["password"]);
                 if (checkPassword) {
                     const token = generateToken(user);
-                    return res.status(200).json(LOGIN.SUCCESS({...user["_doc"], password: null, token}));
+                    return res.status(200)
+                        .json(LOGIN.SUCCESS(
+                            {
+                                ...user["_doc"],
+                                password: null,
+                                accessToken: token
+                            }
+                        ));
                 } else {
                     return res.status(401).json(LOGIN.FAILURE("Password is wrong!"));
                 }

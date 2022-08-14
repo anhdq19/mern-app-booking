@@ -19,21 +19,17 @@ export const generateToken = (user) => {
     );
 }
 export const verifyToken = (req, res, next) => {
-    let token = req.headers['x-access-token'];
-    console.log(req.headers)
-    //
-    // if (!token) {
-    //     return res.status(40).send({
-    //         message: 'No token provided!',
-    //     });
-    // }
-    // jwt.verify(token,  process.env.SECRET_KEY_JWT, (err, decoded) => {
-    //     if (err) {
-    //         return res.status(401).send({
-    //             message: 'UnAuthorized!',
-    //         });
-    //     }
-    //     req.userId = decoded.data._id;
-    //     next();
-    // });
+    const authorizationHeader = req.headers['authorization'];
+    const token = authorizationHeader.split(" ")[1];
+    if (!token) {
+        return res.status(401).json("You are not authentication!");
+    }
+    jwt.verify(token, process.env.SECRET_KEY_JWT, (err, user) => {
+        if (err) {
+            return res.status(403).json("Token is not valid!");
+        }
+        req.user = user;
+        next()
+    });
+
 };
