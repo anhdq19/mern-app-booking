@@ -1,18 +1,18 @@
 import express from "express";
 import UserController from "../controller/user.controller.js";
-import {verifyToken} from "../middleware/JwtUtil.js";
+import {isAdmin, isUser} from "../middleware/JwtUtil.js";
 
 const router = express.Router();
 
-router.get('/', verifyToken, UserController.getAllUser);
+router.get('/', isAdmin, UserController.getAllUser);
 
-router.get("/:id", UserController.getUserById);
+router.get("/:id", isUser, UserController.getUserById);
 
-router.post('/', UserController.createUser);
+router.post('/', isAdmin, UserController.createUser);
 
-router.delete("/:id", UserController.deleteUserById);
+router.delete("/:id", isAdmin, UserController.deleteUserById);
 
-router.put('/:id', UserController.updateUserById);
+router.put('/:id', isUser, UserController.updateUserById);
 
 
 export default router;

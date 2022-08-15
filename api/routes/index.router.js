@@ -7,6 +7,6 @@ const route = (app) => {
     app.use('/api/v1/auth', authRouter);
     app.use('/api/v1/hotel', hotelRouter);
     app.use('/api/v1/room', roomRouter);
-    app.use('/api/v1/user', userRouter);
+    app.use('/api/v1/users', userRouter);
 }
 export default route;

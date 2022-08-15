@@ -16,7 +16,8 @@ class AuthController {
             const newUser = new UserModel({...req.body, password: hashPassword});
             try {
                 const user = await newUser.save();
-                return res.status(200).json(REGISTER.SUCCESS({...user["_doc"], password: null}));
+                const {password, isAdmin, ...other} = user["_doc"]
+                return res.status(200).json(REGISTER.SUCCESS({...other}));
             } catch (error) {
                 return res.status(500).json(REGISTER.FAILURE(error));
             }
@@ -32,14 +33,11 @@ class AuthController {
                 const checkPassword = await bcrypt.compareSync(req.body.password, user["password"]);
                 if (checkPassword) {
                     const token = generateToken(user);
+                    const {password, isAdmin, ...other} = user["_doc"]
                     return res.status(200)
-                        .json(LOGIN.SUCCESS(
-                            {
-                                ...user["_doc"],
-                                password: null,
-                                accessToken: token
-                            }
-                        ));
+                        .json(LOGIN.SUCCESS({
+                            ...other, accessToken: token
+                        }));
                 } else {
                     return res.status(401).json(LOGIN.FAILURE("Password is wrong!"));
                 }
@@ -47,9 +45,7 @@ class AuthController {
         } catch (error) {
             return res.status(500).json(LOGIN.FAILURE(error))
         }
-    }
-
-
+    };
 }
 
 export default new AuthController;
