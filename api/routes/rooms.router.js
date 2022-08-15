@@ -8,9 +8,9 @@ router.get('/', RoomController.getAllRoom);
 
 router.get("/:id", RoomController.getRoomById);
 
-router.post('/', isAdmin, RoomController.createRoom);
+router.post('/:hotelId', isAdmin, RoomController.createRoom);
 
-router.delete("/:id", isAdmin, RoomController.deleteRoomById);
+router.delete("/:id/:hotelId", isAdmin, RoomController.deleteRoomById);
 
 router.put('/:id', isAdmin, RoomController.updateRoomById);
 

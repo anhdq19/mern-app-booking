@@ -66,13 +66,19 @@ class RoomController {
     };
 
     deleteRoomById = async (req, res) => {
+        const hotelId = req.params.hotelId;
+        const id = req.params.id;
         try {
-            const room = await RoomModel.findByIdAndDelete(req.params.id);
-            if (room) {
-                return res.status(200).json(DELETE_ROOM.SUCCESS(room));
-            } else {
-                return res.status(404).json(DELETE_ROOM.FAILURE("Not found Room by id:" + req.params.id));
+            await RoomModel.findByIdAndDelete(id);
+            try {
+                await HotelModel.findByIdAndUpdate(
+                    hotelId,
+                    {$pull: {rooms: id}}
+                )
+            } catch (error) {
+                return res.status(500).json(DELETE_ROOM.FAILURE(error));
             }
+            return res.status(200).json(DELETE_ROOM.SUCCESS(null));
         } catch (error) {
             return res.status(500).json(DELETE_ROOM.FAILURE(error));
         }
