@@ -7,8 +7,6 @@ import {
     UPDATE_HOTEL_BY_ID
 } from "../_responses/hotel.response.js";
 
-import {verifyToken} from "../middleware/JwtUtil.js";
-
 class HotelController {
 
     getAllHotel = async (req, res) => {
