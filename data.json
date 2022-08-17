@@ -1,1845 +1,715 @@
 {
-  "id": 216,
-
-  "province": {
-    "id": 50,
-    "name": "Thành phố Hồ Chí Minh",
-    "country_id": 242,
-    "created_at": "2020-04-06T17:35:37.151Z",
-    "updated_at": "2020-04-06T17:35:37.151Z",
-    "deleted_at": null,
-    "slug": "thanh-pho-ho-chi-minh"
-  },
-  "property": {
-    "id": 76063,
-    "business_model": "single_room",
-    "host_id": 10157,
-    "name": "The Royal Homies Suite Balcony - Phu My Hung (SECC, Crescent Mall, SC Vivo City)"
-  },
-  "description": {
-    "vi": "<p>The Royal Homies - Phú Mỹ Hưng tọa lạc tại Nội khu Hưng Gia 1, phường Tân Phong, quận 7. Khu dân dư đông đúc, an ninh thắt chặt bởi đội ngủ bảo vệ Phú Mỹ Hưng. Trung tâm hành chính và tập trung nhiều khu vui chơi giải trí, nhà hàng, quán ăn, quán cà phê, siêu thị, chợ, trung tâm mua sắm, thương mại, cách Trung tâm Hội nghị và Triển lãm Sài Gòn 1,3 km. Nơi lưu trú có tiện nghi nhà hàng phục vụ món ăn và thức uống có trong thực đơn, quầy lễ tân làm việc 24 giờ và dịch vụ phòng đến 15 giờ chiều mỗi ngày, WiFi được lắp đặt có thể sử dụng miễn phí trong toàn bộ khuôn viên.</p><p>Tất cả các phòng được trang bị máy lạnh, lò vi sóng, bếp nấu ăn riêng từng phòng, tủ lạnh, ấm đun nước, chậu vệ sinh, máy sấy tóc và bàn làm việc. Tại các phòng của khách sạn được trang bị tủ quần áo, TV màn hình phẳng và phòng tắm riêng biệt.Tất cả các phòng điều có cửa sổ và tầm nhìn hướng đường phố và công viên, sân vườn</p><p>Du khách có thể thuê xe máy và xe hơi có tài xế tại chỗ nghỉ.</p><p>Bến Nhà Rồng và Bảo tàng Mỹ thuật đều nằm trong bán kính 7 km. Sân bay gần nhất là sân bay quốc tế Tân Sơn Nhất, cách đó 12 km, và khách sạn căn hộ này cung cấp dịch vụ đưa đón sân bay với một khoản phụ phí.</p><p></p><p>Chúng tôi sử dụng ngôn ngữ của bạn!</p>"
-  },
-  "status": "listed",
-  "guides": {
-    "vi": {
-      "check_in": "<p>Quý khách vui lòng liên hệ quầy lễ tân để được hỗ trợ.</p>",
-      "house_manual": "<p>Quý khách vui lòng liên hệ quầy lễ tân để được hỗ trợ.</p>"
-    }
-  },
-  "custom_policy": {
-    "vi": "<p>Quy định thời gian nhận và trả phòng :</p><p>Giờ nhận phòng: sau 14 giờ ngày khách đến</p><p>Giờ trả phòng: trước 12 giờ trưa ngày khách đi</p><p>Trường hợp quý khách có nhu cầu nhận phòng sớm hoặc trả phòng muộn, quý khách vui lòng thông báo trước hoặc liên hệ quầy lễ tân để được hỗ trợ báo phụ phí cũng như hỗ trợ mọi nhu cầu tại nơi lưu trú.</p>"
-  },
-  "timezone": "Asia/Ho_Chi_Minh",
-  "created_at": "2020-12-28T03:06:05.354Z",
-  "updated_at": "2021-10-09T04:16:27.489Z",
-  "deleted_at": null,
-  "address_id": 30236,
-  "cancel_policy_id": 2,
-  "earliest_check_in": 840,
-  "last_check_in": 1380,
-  "check_out": 720,
-  "check_in_method": "reception",
-  "property_type_id": 5,
-  "host_communicate_language": [
-    "vietnamese",
-    "english"
-  ],
-  "cover_image": "users/276795/TgNqpMj4DjdXLP6qAkgzzoii.jpg",
-  "additional_info": null,
-  "currency": "vnd",
-  "minimum_night_stay": 1,
-  "maximum_night_stay": 90,
-  "commission_rate": "0.03",
-  "verification_images": [
-    "users/276795/yc5l302sj_R9KaQRkIs9_Yy7.jpg",
-    "users/276795/3G4UNHh4bRjicTStf_FdITrN.jpg"
-  ],
-  "preview_code": "WRmEq83HzTuuMVF4",
-  "promotion": 0,
-  "no_response_count": 0,
-  "last_conversation_id": null,
-  "over_declined_count": 0,
-  "last_booking_id": null,
-  "property_type": 5,
-  "host": {
-    "id": 10157,
-    "status": "verifying",
-    "user_id": "276795",
-    "level": "normal",
-    "created_at": "2019-12-09T08:40:02.000Z",
-    "updated_at": "2022-02-07T07:37:23.321Z",
-    "deleted_at": null,
-    "first_name": "Hotels & Apartments",
-    "last_name": "The Royal",
-    "phone": "+84906855198",
-    "date_of_birth": null,
-    "description": "",
-    "avatar": null,
-    "email": "royalhotel.tdgroup@gmail.com",
-    "user_origin": "Luxstay",
-    "additional_info": {
-      "phones": [
+  "data": {
+    "id": 77587,
+    "host_id": 24625,
+    "name": "C\u0102N H\u1ed8 1 PH\u00d2NG NG\u1ee6 - R\u1ed0N STUDIO",
+    "summary": "",
+    "introduction": "<ul><li><p>C\u0103n h\u1ed9 1 ph\u00f2ng + 1 wc v\u1edbi di\u1ec7n t\u00edch 30m2 th\u00edch h\u1ee3p cho 2 - 4 kh\u00e1ch<\/p><\/li><li><p>G\u1ea7n nhi\u1ec1u \u0111\u1ecba \u0111i\u1ec3m du l\u1ecbch n\u1ed5i ti\u1ebfng: nh\u00e0 th\u1edd con G\u00e0, h\u1ed3 Tuy\u1ec1n L\u00e2m, c\u00e1p treo, v\u01b0\u1eddn hoa \u0110\u00e0 L\u1ea1t, si\u00eau th\u1ecb Big C, H\u1ed3 Xu\u00e2n H\u01b0\u01a1ng, thi\u1ec1n vi\u1ec7n Tr\u00fac L\u00e2m, ch\u00f9a Linh Ph\u01b0\u1edbc, Crazy house,\u2026<\/p><\/li><li><p>G\u1ea7n c\u00e1c qu\u00e1n \u0103n, coffee n\u1ed5i ti\u1ebfng: down under, anna\u2019s coffee house,\u2026<\/p><\/li><li><p>C\u00e1ch Dinh B\u1ea3o \u0110\u1ea1i: 3km<\/p><\/li><li><p>Qu\u1ea3ng tr\u01b0\u1eddng L\u00e2m Vi\u00ean: 7km<\/p><\/li><li><p>C\u00e1ch trung t\u00e2m: 2km<\/p><\/li><\/ul><ul><li><p>C\u0103n h\u1ed9 g\u1ed3m c\u00f3 09 studio, b\u1ebfp ri\u00eang<\/p><\/li><li><p>C\u00f3 khu\u00f4n vi\u00ean chung<\/p><\/li><li><p>S\u00e2n chung cho kh\u00e1ch BBQ, \u0111\u1ed1t l\u1eeda tr\u1ea1i r\u1ed9ng r\u00e3i, tho\u1ea3i m\u00e1i<\/p><\/li><li><p>C\u00f3 gara \u0111\u1eadu xe, h\u1ebbm xe 16c ra v\u00e0o tho\u1ea3i m\u00e1i<\/p><\/li><li><p>Giao ch\u00eca kh\u00f3a nguy\u00ean c\u0103n<\/p><p><strong>D\u1ecbch v\u1ee5 mi\u1ec5n ph\u00ed:<\/strong><\/p><ul><li><p>Gia v\u1ecb c\u01a1 b\u1ea3n<\/p><\/li><li><p>Tr\u00e0, cafe, n\u01b0\u1edbc su\u1ed1i<\/p><\/li><li><p>B\u1ebfp \u0111\u1ea7y \u0111\u1ee7 d\u1ee5ng c\u1ee5 n\u1ea5u \u0103n<\/p><\/li><li><p>Nh\u00e2n vi\u00ean ch\u0103m s\u00f3c kh\u00e1ch<\/p><\/li><li><p>\u0110\u1ed3 d\u00f9ng v\u1ec7 sinh c\u00e1 nh\u00e2n ( d\u1ea7u g\u1ed9i, s\u1eefa t\u1eafm, b\u00e0n ch\u1ea3i, d\u00e9p \u0111i trong nh\u00e0,&nbsp;<strong>)<\/strong><\/p><\/li><li><p>B\u00e3i \u0111\u1eadu xe \u00f4 t\u00f4 an to\u00e0n t\u1eeb 4 -45 ch\u1ed7<\/p><\/li><\/ul><\/li><\/ul>",
+    "introduction_ko": "",
+    "unique_features": null,
+    "utilities": null,
+    "host_experiences": null,
+    "special_note": "<p>\u00a7&nbsp; Gi\u1edd check in: 14h \u2013 check out: 12h (n\u1ebfu kh\u00e1ch h\u00e0ng c\u00f3 nhu c\u1ea7u c\u1ea7n check in- check out kh\u00e1c gi\u1edd quy \u0111\u1ecbnh li\u00ean h\u1ec7 nh\u00e2n vi\u00ean kinh doanh)<\/p><p>\u00a7&nbsp; Gi\u00e1 tr\u00ean \u00e1p d\u1ee5ng theo s\u1ed1 l\u01b0\u1ee3ng ph\u00f2ng. Kh\u00e1ch ph\u00e1t sinh ph\u1ee5 thu theo quy \u0111\u1ecbnh (150.000 vnd\/pax)<\/p><p>\u00a7&nbsp; Tr\u1ebb em d\u01b0\u1edbi 6+ mi\u1ec5n ph\u00ed v\u00ec ng\u1ee7 chung v\u1edbi b\u1ed1 m\u1eb9.<\/p><p>\u00a7&nbsp; Tr\u1ebb em tr\u00ean 6+ ph\u1ee5 thu nh\u01b0 ng\u01b0\u1eddi l\u1edbn .<\/p><p>\u00a7&nbsp; C\u0103n h\u1ed9 kh\u00f4ng bao g\u1ed3m gia v\u1ecb, qu\u00fd kh\u00e1ch t\u1ef1 chu\u1ea9n b\u1ecb<\/p><p>\u00a7&nbsp; C\u0103n h\u1ed9 theo h\u00ecnh th\u1ee9c giao nguy\u00ean c\u0103n, kh\u00f4ng bao g\u1ed3m ph\u00ed d\u1ecdn v\u1ec7 sinh h\u1eb1ng ng\u00e0y. Q\u00fay kh\u00e1ch c\u00f3 nhu c\u1ea7u d\u1ecdn ph\u00f2ng vui l\u00f2ng li\u00ean h\u1ec7 nh\u00e2n vi\u00ean<\/p><p>\u00a7&nbsp; C\u0103n h\u1ed9 kh\u00f4ng c\u00f3 ph\u00f2ng n\u1ed9i b\u1ed9 cho t\u00e0i x\u1ebf<\/p><p>\u00a7&nbsp; Sau khi s\u1eed d\u1ee5ng b\u1ebfp, qu\u00fd kh\u00e1ch vui l\u00f2ng t\u1ef1 d\u1ecdn r\u1eeda. Qu\u00fd kh\u00e1ch c\u00f3 nhu c\u1ea7u thu\u00ea nh\u00e2n vi\u00ean d\u1ecdn r\u1eeda vui l\u00f2ng li\u00ean h\u1ec7 qu\u1ea3n gia.<\/p><p>\u00a7&nbsp; Kh\u00f4ng h\u00e1t karaoke, l\u00e0m \u1ed3n sau 21h theo quy \u0111\u1ecbnh nh\u00e0 n\u01b0\u1edbc.<\/p><p>\u00a7&nbsp; Vui l\u00f2ng xu\u1ea5t tr\u00ecnh h\u1ed9 chi\u1ebfu c\u00f3 th\u1ecb th\u1ef1c xu\u1ea5t nh\u1eadp c\u1ea3nh h\u1ee3p l\u1ec7 khi l\u00e0m th\u1ee7 t\u1ee5c nh\u1eadn ph\u00f2ng (CMND n\u1ebfu l\u00e0 c\u00f4ng d\u00e2n qu\u1ed1c t\u1ecbch Vi\u1ec7t Nam).<\/p><p>\u00a7&nbsp; Nghi\u00eam c\u1ea5m vi\u1ec7c mang v\u00e0o c\u0103n h\u1ed9 nh\u01b0 v\u0169 kh\u00ed, \u0111\u1ed9c d\u01b0\u1ee3c , ma t\u00fay ,c\u00e1c ch\u1ea5t c\u1ea5m v\u00e0 c\u00e1c ch\u1ea5t g\u00e2y n\u1ed5 kh\u00e1c.<\/p><p>\u00a7&nbsp; Nghi\u00eam c\u1ea5m m\u1ecdi h\u00ecnh th\u1ee9c c\u1edd b\u1ea1c, s\u1eed d\u1ee5ng ma t\u00fay trong khu v\u1ef1c c\u0103n h\u1ed9. Qu\u00fd kh\u00e1ch ph\u1ea3i ho\u00e0n to\u00e0n ch\u1ecbu tr\u00e1ch nhi\u1ec7m tr\u01b0\u1edbc ph\u00e1p lu\u1eadt Vi\u1ec7t Nam v\u00e0 c\u0103n h\u1ed9 n\u1ebfu vi ph\u1ea1m.<\/p><p>\u00a7&nbsp; Ng\u01b0\u1eddi th\u00e2n \u0111\u1ebfn th\u0103m ph\u1ea3i \u0111\u0103ng k\u00ed v\u1edbi qu\u1ea3n gia. Ng\u01b0\u1eddi th\u00e2n ch\u1ec9 c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c \u0111\u0103ng k\u00fd t\u1eeb 09h00 \u0111\u1ebfn 21h00.<\/p>",
+    "apartment_rules": "Y\u00eau c\u1ea7u ch\u1ee9ng minh th\u01b0\/ c\u0103n c\u01b0\u1edbc c\u00f4ng d\u00e2n\/ h\u1ed9 chi\u1ebfu ho\u1eb7c \u0111\u1eb7t c\u1ecdc t\u1ea1i ch\u1ed7 ngh\u1ec9\\nH\u1ea1n ch\u1ebf l\u00e0m \u1ed3n sau 10 gi\u1edd t\u1ed1i\\nKh\u00f4ng \u0111i gi\u00e0y\/d\u00e9p trong nh\u00e0\\n",
+    "apartment_manual": "<p>\u00a7&nbsp; Gi\u1edd check in: 14h \u2013 check out: 12h (n\u1ebfu kh\u00e1ch h\u00e0ng c\u00f3 nhu c\u1ea7u c\u1ea7n check in_check out kh\u00e1c gi\u1edd quy \u0111\u1ecbnh li\u00ean h\u1ec7 nh\u00e2n vi\u00ean kinh doanh)<\/p>\\n<p>Tr\u01b0\u1edbc ng\u00e0y check in nh\u00e2n vi\u00ean s\u1ebd ch\u1ee7 \u0111\u1ed9ng li\u00ean h\u1ec7 v\u00e0 b\u00e0n giao c\u0103n h\u1ed9 cho kh\u00e1ch<\/p><p>N\u1ebfu kh\u00f4ng th\u1ec3 ch\u1edd \u0111\u1ee3i \u0111\u01b0\u1ee3c vui l\u00f2ng li\u00ean h\u1ec7 s\u1ed1 hot line: 0907813722<\/p>\\n",
+    "direction_manual": null,
+    "checkin_guide": null,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1,
+    "num_beds": 1,
+    "area": "30",
+    "maximum_guests": 4,
+    "booking_type": "instant_book",
+    "calendar_type": null,
+    "status": "Listed",
+    "submit_status": "Reject",
+    "cancellation_policy": "Moderate",
+    "url": "https:\/\/www.luxstay.com\/rooms\/77587",
+    "rating": 0,
+    "review_count": 0,
+    "like_count": 37,
+    "favourable_rates": 100,
+    "max_infants": null,
+    "instant_fake": false,
+    "partner_room": false,
+    "featured_photo": "https:\/\/cdn.luxstay.com\/users\/13315\/5hwqxu3ptcAR3a04SgnS41Qm.jpg",
+    "bedType": {
+      "data": {
+        "id": 4,
+        "name": "Couch"
+      }
+    },
+    "roomType": {
+      "data": {
+        "id": 2,
+        "name": "Ph\u00f2ng ri\u00eang",
+        "description": "Ph\u00f2ng ri\u00eang"
+      }
+    },
+    "propertyType": {
+      "data": {
+        "id": 28,
+        "name": "C\u0103n h\u1ed9 Studio",
+        "description": "C\u0103n h\u1ed9 lo\u1ea1i nh\u1ecf, kh\u00f4ng ph\u00e2n chia kh\u00f4ng gian, v\u1edbi di\u1ec7n t\u00edch t\u1ed1i \u0111a ch\u1ec9 kho\u1ea3ng 60 m2"
+      }
+    },
+    "price": {
+      "data": {
+        "room_id": 77587,
+        "nightly_price": 600000,
+        "monthly_price": 576000,
+        "weekend_price": 700000,
+        "cleaning_fee": 100000,
+        "security_fee": 0,
+        "nightly_price_formatted": "600,000\u20ab",
+        "cleaning_fee_formatted": "100,000\u20ab",
+        "security_fee_formatted": "0\u20ab",
+        "additional_guests_fee": 100000,
+        "additional_children_fee": 100000,
+        "additional_infants_fee": 0,
+        "currency_code": "VND",
+        "standard_guests": 2,
+        "standard_children": 2,
+        "standard_infants": 1,
+        "cancellation_policy": "Moderate",
+        "booking_type": "instant_book",
+        "checkin_time": "02:00 pm",
+        "checkout_time": "12:00 pm",
+        "checkin_time_expiry": null,
+        "minimum_stay": 1,
+        "maximum_stay": 90,
+        "nightly_price_usd": 25.440469936360664,
+        "nightly_price_vnd": 600000
+      }
+    },
+    "address": {
+      "data": {
+        "address_line_1": "H\u1ebaM 36 TRI\u1ec6U VI\u1ec6T V\u01af\u01a0NG,  TRI\u1ec6U VI\u1ec6T V\u01af\u01a0NG,  Ph\u01b0\u1eddng 3,  Th\u00e0nh ph\u1ed1 \u0110\u00e0 L\u1ea1t,  T\u1ec9nh L\u00e2m \u0110\u1ed3ng,  Viet Nam",
+        "address_line_2": null,
+        "area": "2773",
+        "area_id": 2773,
+        "area_path": "vietnam\/lam-dong\/da-lat\/2773",
+        "city": "\u0110\u00e0 L\u1ea1t",
+        "city_id": 2767,
+        "city_path": "vietnam\/lam-dong\/da-lat",
+        "state": "L\u00e2m \u0110\u1ed3ng",
+        "state_id": 2716,
+        "state_path": "vietnam\/lam-dong",
+        "country": "Vietnam",
+        "country_path": "vietnam",
+        "latitude": "11.9302439",
+        "longitude": "108.4319915",
+        "full_address": "H\u1ebaM 36 TRI\u1ec6U VI\u1ec6T V\u01af\u01a0NG,  TRI\u1ec6U VI\u1ec6T V\u01af\u01a0NG,  Ph\u01b0\u1eddng 3,  Th\u00e0nh ph\u1ed1 \u0110\u00e0 L\u1ea1t,  T\u1ec9nh L\u00e2m \u0110\u1ed3ng,  Viet Nam"
+      }
+    },
+    "host": {
+      "data": {
+        "id": 24625,
+        "full_name": "Qu\u00e1cht\u01b0\u1eddng Vi",
+        "created_at": "2018-10-24T11:12:06+00:00",
+        "avatar": "https:\/\/cdn.luxstay.com\/users\/24625\/1541109350_img_2370jpg",
+        "tiny_avatar": "https:\/\/cdn.luxstay.com\/users\/24625\/1541109350_img_2370jpg",
+        "about": "Hy v\u1ecdng mang \u0111\u1ebfn cho du kh\u00e1ch \u0111\u1ebfn \u0110\u00e0 L\u1ea1t 1 ch\u1ed7 l\u01b0u tr\u00fa ti\u1ec7n nghi, \u0111\u1eb3ng c\u1ea5p , th\u00e2n thi\u00ean, tho\u1ea3i m\u00e1i. Quan tr\u1ecdng h\u01a1n h\u1ebft l\u00e0 gi\u00e1 ph\u1ea3i r\u1ebb",
+        "email": "beuthouse@gmail.com",
+        "email_verified": false,
+        "phone_verified": false,
+        "subscribe_url": "\/api\/me\/subscriptions\/user\/24625",
+        "super_host": false,
+        "phone": "0907813722",
+        "response_rate": 100,
+        "cancellation_rate": 0,
+        "rooms": 21,
+        "cc_mails": null
+      }
+    },
+    "photos": {
+      "data": [
         {
-          "number": "+84906855198"
+          "id": 4561822,
+          "slide": true,
+          "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/5hwqxu3ptcAR3a04SgnS41Qm.jpg",
+          "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/5hwqxu3ptcAR3a04SgnS41Qm.jpg"
         },
         {
-          "number": "+842854108096"
+          "id": 4561821,
+          "slide": true,
+          "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/RuMUrHbLIhmL3yPd4G7esKeQ.jpeg",
+          "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/RuMUrHbLIhmL3yPd4G7esKeQ.jpeg"
+        },
+        {
+          "id": 4561820,
+          "slide": true,
+          "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/EuQYIpzQKdfX1Hxl8gr-MNaL.jpeg",
+          "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/EuQYIpzQKdfX1Hxl8gr-MNaL.jpeg"
+        },
+        {
+          "id": 4561819,
+          "slide": true,
+          "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/oZrdWX6sgfr1wf_NeDYFLxEC.jpg",
+          "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/oZrdWX6sgfr1wf_NeDYFLxEC.jpg"
+        },
+        {
+          "id": 4561818,
+          "slide": true,
+          "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/LI6Ocg2_U-eG3GAs2NxOYl1T.jpg",
+          "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/LI6Ocg2_U-eG3GAs2NxOYl1T.jpg"
+        },
+        {
+          "id": 4561817,
+          "slide": true,
+          "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/VbYLt92MqQmxjJNij0T1KCis.jpg",
+          "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/VbYLt92MqQmxjJNij0T1KCis.jpg"
+        },
+        {
+          "id": 4561816,
+          "slide": true,
+          "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/cTtTMbAsCQ3A5wOb2BnAji8P.jpg",
+          "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/cTtTMbAsCQ3A5wOb2BnAji8P.jpg"
+        },
+        {
+          "id": 4561815,
+          "slide": true,
+          "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/KpK-pnRPt5emBFReuk1AHjrx.jpg",
+          "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/KpK-pnRPt5emBFReuk1AHjrx.jpg"
+        },
+        {
+          "id": 4561814,
+          "slide": true,
+          "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/RPLeP7KJkG8t6kc9nwZNkVDG.jpg",
+          "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/RPLeP7KJkG8t6kc9nwZNkVDG.jpg"
+        },
+        {
+          "id": 4561813,
+          "slide": true,
+          "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/DO3a-hHUzD9KJdlGXOGCi7K5.jpg",
+          "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/DO3a-hHUzD9KJdlGXOGCi7K5.jpg"
         }
       ]
     },
-    "commission_rate": "0.03",
-    "identification": {
-      "images": [
-        "users/276795/VFdBfKjDNZpE29wu_vezAgdh.jpg",
-        "users/276795/qylPt71f6Cfwk8NRp9tSvpUf.jpg"
-      ],
-      "fullname": "Nguyễn Trần Diễm Trang",
-      "issued_at": "2012-11-19",
-      "id_card_number": "312030077"
-    },
-    "last_actived_at": null,
-    "is_suspended": false
-  },
-  "facilities": [
-    {
-      "id": 1,
-      "name": {
-        "en": "Elevator/Lift",
-        "vi": "Thang máy"
-      },
-      "keyword": "elevator-lift",
-      "facility_type_id": 1,
-      "created_at": "2020-04-06T17:35:36.174Z",
-      "updated_at": "2020-04-06T17:35:36.174Z",
-      "deleted_at": null,
-      "type": {
-        "id": 1,
-        "name": {
-          "en": "General",
-          "vi": "Tiện ích chung"
-        },
-        "created_at": "2020-04-06T17:35:36.170Z",
-        "updated_at": "2020-04-06T17:35:36.170Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 2,
-      "name": {
-        "en": "Stair",
-        "vi": "Thang bộ"
-      },
-      "keyword": "stair",
-      "facility_type_id": 1,
-      "created_at": "2020-04-06T17:35:36.178Z",
-      "updated_at": "2020-04-06T17:35:36.178Z",
-      "deleted_at": null,
-      "type": {
-        "id": 1,
-        "name": {
-          "en": "General",
-          "vi": "Tiện ích chung"
-        },
-        "created_at": "2020-04-06T17:35:36.170Z",
-        "updated_at": "2020-04-06T17:35:36.170Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 4,
-      "name": {
-        "en": "Garbage disposal area",
-        "vi": "Khu vực đổ rác"
-      },
-      "keyword": "garbage-disposal-area",
-      "facility_type_id": 1,
-      "created_at": "2020-04-06T17:35:36.183Z",
-      "updated_at": "2020-04-06T17:35:36.183Z",
-      "deleted_at": null,
-      "type": {
-        "id": 1,
-        "name": {
-          "en": "General",
-          "vi": "Tiện ích chung"
-        },
-        "created_at": "2020-04-06T17:35:36.170Z",
-        "updated_at": "2020-04-06T17:35:36.170Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 5,
-      "name": {
-        "en": "24/24 front desk",
-        "vi": "Lễ tân 24/24"
-      },
-      "keyword": "24-24-front-desk",
-      "facility_type_id": 1,
-      "created_at": "2020-04-06T17:35:36.185Z",
-      "updated_at": "2020-04-06T17:35:36.185Z",
-      "deleted_at": null,
-      "type": {
-        "id": 1,
-        "name": {
-          "en": "General",
-          "vi": "Tiện ích chung"
-        },
-        "created_at": "2020-04-06T17:35:36.170Z",
-        "updated_at": "2020-04-06T17:35:36.170Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 6,
-      "name": {
-        "en": "Smoking area",
-        "vi": "Khu vực hút thuốc"
-      },
-      "keyword": "smoking-area",
-      "facility_type_id": 1,
-      "created_at": "2020-04-06T17:35:36.188Z",
-      "updated_at": "2020-04-06T17:35:36.188Z",
-      "deleted_at": null,
-      "type": {
-        "id": 1,
-        "name": {
-          "en": "General",
-          "vi": "Tiện ích chung"
-        },
-        "created_at": "2020-04-06T17:35:36.170Z",
-        "updated_at": "2020-04-06T17:35:36.170Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 7,
-      "name": {
-        "en": "Outdoor parking lot",
-        "vi": "Bãi đỗ xe ngoài trời"
-      },
-      "keyword": "outdoor-parking-lot",
-      "facility_type_id": 1,
-      "created_at": "2020-04-06T17:35:36.191Z",
-      "updated_at": "2020-04-06T17:35:36.191Z",
-      "deleted_at": null,
-      "type": {
-        "id": 1,
-        "name": {
-          "en": "General",
-          "vi": "Tiện ích chung"
-        },
-        "created_at": "2020-04-06T17:35:36.170Z",
-        "updated_at": "2020-04-06T17:35:36.170Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 11,
-      "name": {
-        "en": "Billiard",
-        "vi": "Billiard"
-      },
-      "keyword": "billiard",
-      "facility_type_id": 2,
-      "created_at": "2020-04-06T17:35:36.204Z",
-      "updated_at": "2020-04-06T17:35:36.204Z",
-      "deleted_at": null,
-      "type": {
-        "id": 2,
-        "name": {
-          "en": "Entertainment",
-          "vi": "Tiện ích giải trí"
-        },
-        "created_at": "2020-04-06T17:35:36.201Z",
-        "updated_at": "2020-04-06T17:35:36.201Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 14,
-      "name": {
-        "en": "Tennis court",
-        "vi": "Sân tennis"
-      },
-      "keyword": "tennis-court",
-      "facility_type_id": 2,
-      "created_at": "2020-04-06T17:35:36.211Z",
-      "updated_at": "2020-04-06T17:35:36.211Z",
-      "deleted_at": null,
-      "type": {
-        "id": 2,
-        "name": {
-          "en": "Entertainment",
-          "vi": "Tiện ích giải trí"
-        },
-        "created_at": "2020-04-06T17:35:36.201Z",
-        "updated_at": "2020-04-06T17:35:36.201Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 17,
-      "name": {
-        "en": "Playground for kids",
-        "vi": "Khu vui chơi trẻ em"
-      },
-      "keyword": "playground-for-kids",
-      "facility_type_id": 2,
-      "created_at": "2020-04-06T17:35:36.218Z",
-      "updated_at": "2020-04-06T17:35:36.218Z",
-      "deleted_at": null,
-      "type": {
-        "id": 2,
-        "name": {
-          "en": "Entertainment",
-          "vi": "Tiện ích giải trí"
-        },
-        "created_at": "2020-04-06T17:35:36.201Z",
-        "updated_at": "2020-04-06T17:35:36.201Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 20,
-      "name": {
-        "en": "Outdoor pool",
-        "vi": "Bể bơi ngoài trời"
-      },
-      "keyword": "outdoor-pool",
-      "facility_type_id": 2,
-      "created_at": "2020-04-06T17:35:36.226Z",
-      "updated_at": "2020-04-06T17:35:36.226Z",
-      "deleted_at": null,
-      "type": {
-        "id": 2,
-        "name": {
-          "en": "Entertainment",
-          "vi": "Tiện ích giải trí"
-        },
-        "created_at": "2020-04-06T17:35:36.201Z",
-        "updated_at": "2020-04-06T17:35:36.201Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 22,
-      "name": {
-        "en": "Gym",
-        "vi": "Gym"
-      },
-      "keyword": "gym",
-      "facility_type_id": 3,
-      "created_at": "2020-04-06T17:35:36.233Z",
-      "updated_at": "2020-04-06T17:35:36.233Z",
-      "deleted_at": null,
-      "type": {
-        "id": 3,
-        "name": {
-          "en": "Beauty and Health care",
-          "vi": "Chăm sóc sức khỏe & Làm đẹp"
-        },
-        "created_at": "2020-04-06T17:35:36.231Z",
-        "updated_at": "2020-04-06T17:35:36.231Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 23,
-      "name": {
-        "en": "Yoga",
-        "vi": "Yoga"
-      },
-      "keyword": "yoga",
-      "facility_type_id": 3,
-      "created_at": "2020-04-06T17:35:36.235Z",
-      "updated_at": "2020-04-06T17:35:36.235Z",
-      "deleted_at": null,
-      "type": {
-        "id": 3,
-        "name": {
-          "en": "Beauty and Health care",
-          "vi": "Chăm sóc sức khỏe & Làm đẹp"
-        },
-        "created_at": "2020-04-06T17:35:36.231Z",
-        "updated_at": "2020-04-06T17:35:36.231Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 25,
-      "name": {
-        "en": "Spa",
-        "vi": "Spa"
-      },
-      "keyword": "spa",
-      "facility_type_id": 3,
-      "created_at": "2020-04-06T17:35:36.240Z",
-      "updated_at": "2020-04-06T17:35:36.240Z",
-      "deleted_at": null,
-      "type": {
-        "id": 3,
-        "name": {
-          "en": "Beauty and Health care",
-          "vi": "Chăm sóc sức khỏe & Làm đẹp"
-        },
-        "created_at": "2020-04-06T17:35:36.231Z",
-        "updated_at": "2020-04-06T17:35:36.231Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 26,
-      "name": {
-        "en": "Hair salon",
-        "vi": "Tiệm làm tóc"
-      },
-      "keyword": "hair-salon",
-      "facility_type_id": 3,
-      "created_at": "2020-04-06T17:35:36.243Z",
-      "updated_at": "2020-04-06T17:35:36.243Z",
-      "deleted_at": null,
-      "type": {
-        "id": 3,
-        "name": {
-          "en": "Beauty and Health care",
-          "vi": "Chăm sóc sức khỏe & Làm đẹp"
-        },
-        "created_at": "2020-04-06T17:35:36.231Z",
-        "updated_at": "2020-04-06T17:35:36.231Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 27,
-      "name": {
-        "en": "Clinic",
-        "vi": "Phòng khám"
-      },
-      "keyword": "clinic",
-      "facility_type_id": 3,
-      "created_at": "2020-04-06T17:35:36.245Z",
-      "updated_at": "2020-04-06T17:35:36.245Z",
-      "deleted_at": null,
-      "type": {
-        "id": 3,
-        "name": {
-          "en": "Beauty and Health care",
-          "vi": "Chăm sóc sức khỏe & Làm đẹp"
-        },
-        "created_at": "2020-04-06T17:35:36.231Z",
-        "updated_at": "2020-04-06T17:35:36.231Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 28,
-      "name": {
-        "en": "Drugstore",
-        "vi": "Hiệu thuốc"
-      },
-      "keyword": "drugstore",
-      "facility_type_id": 3,
-      "created_at": "2020-04-06T17:35:36.248Z",
-      "updated_at": "2020-04-06T17:35:36.248Z",
-      "deleted_at": null,
-      "type": {
-        "id": 3,
-        "name": {
-          "en": "Beauty and Health care",
-          "vi": "Chăm sóc sức khỏe & Làm đẹp"
-        },
-        "created_at": "2020-04-06T17:35:36.231Z",
-        "updated_at": "2020-04-06T17:35:36.231Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 29,
-      "name": {
-        "en": "Coffee shop",
-        "vi": "Quán cafe"
-      },
-      "keyword": "coffee-shop",
-      "facility_type_id": 4,
-      "created_at": "2020-04-06T17:35:36.256Z",
-      "updated_at": "2020-04-06T17:35:36.256Z",
-      "deleted_at": null,
-      "type": {
-        "id": 4,
-        "name": {
-          "en": "Shopping and cuisine",
-          "vi": "Mua sắm & Ăn uống"
-        },
-        "created_at": "2020-04-06T17:35:36.253Z",
-        "updated_at": "2020-04-06T17:35:36.253Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 30,
-      "name": {
-        "en": "Bar",
-        "vi": "Bar"
-      },
-      "keyword": "bar",
-      "facility_type_id": 4,
-      "created_at": "2020-04-06T17:35:36.260Z",
-      "updated_at": "2020-04-06T17:35:36.260Z",
-      "deleted_at": null,
-      "type": {
-        "id": 4,
-        "name": {
-          "en": "Shopping and cuisine",
-          "vi": "Mua sắm & Ăn uống"
-        },
-        "created_at": "2020-04-06T17:35:36.253Z",
-        "updated_at": "2020-04-06T17:35:36.253Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 31,
-      "name": {
-        "en": "Restaurant",
-        "vi": "Nhà hàng"
-      },
-      "keyword": "restaurant",
-      "facility_type_id": 4,
-      "created_at": "2020-04-06T17:35:36.267Z",
-      "updated_at": "2020-04-06T17:35:36.267Z",
-      "deleted_at": null,
-      "type": {
-        "id": 4,
-        "name": {
-          "en": "Shopping and cuisine",
-          "vi": "Mua sắm & Ăn uống"
-        },
-        "created_at": "2020-04-06T17:35:36.253Z",
-        "updated_at": "2020-04-06T17:35:36.253Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 32,
-      "name": {
-        "en": "Shopping mall",
-        "vi": "Trung tâm thương mại"
-      },
-      "keyword": "shopping-mall",
-      "facility_type_id": 4,
-      "created_at": "2020-04-06T17:35:36.274Z",
-      "updated_at": "2020-04-06T17:35:36.274Z",
-      "deleted_at": null,
-      "type": {
-        "id": 4,
-        "name": {
-          "en": "Shopping and cuisine",
-          "vi": "Mua sắm & Ăn uống"
-        },
-        "created_at": "2020-04-06T17:35:36.253Z",
-        "updated_at": "2020-04-06T17:35:36.253Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 33,
-      "name": {
-        "en": "Souvenir shop",
-        "vi": "Cửa hàng lưu niệm"
-      },
-      "keyword": "souvenir-shop",
-      "facility_type_id": 4,
-      "created_at": "2020-04-06T17:35:36.279Z",
-      "updated_at": "2020-04-06T17:35:36.279Z",
-      "deleted_at": null,
-      "type": {
-        "id": 4,
-        "name": {
-          "en": "Shopping and cuisine",
-          "vi": "Mua sắm & Ăn uống"
-        },
-        "created_at": "2020-04-06T17:35:36.253Z",
-        "updated_at": "2020-04-06T17:35:36.253Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 34,
-      "name": {
-        "en": "Near golf course",
-        "vi": "Gần sân golf"
-      },
-      "keyword": "near-golf-course",
-      "facility_type_id": 5,
-      "created_at": "2020-04-06T17:35:36.284Z",
-      "updated_at": "2020-04-06T17:35:36.284Z",
-      "deleted_at": null,
-      "type": {
-        "id": 5,
-        "name": {
-          "en": "Location",
-          "vi": "Vị trí"
-        },
-        "created_at": "2020-04-06T17:35:36.281Z",
-        "updated_at": "2020-04-06T17:35:36.281Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 35,
-      "name": {
-        "en": "Near bus stops",
-        "vi": "Gần bến xe bus"
-      },
-      "keyword": "near-bus-stops",
-      "facility_type_id": 5,
-      "created_at": "2020-04-06T17:35:36.287Z",
-      "updated_at": "2020-04-06T17:35:36.287Z",
-      "deleted_at": null,
-      "type": {
-        "id": 5,
-        "name": {
-          "en": "Location",
-          "vi": "Vị trí"
-        },
-        "created_at": "2020-04-06T17:35:36.281Z",
-        "updated_at": "2020-04-06T17:35:36.281Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 37,
-      "name": {
-        "en": "Near ATM",
-        "vi": "Gần cây ATM"
-      },
-      "keyword": "near-atm",
-      "facility_type_id": 5,
-      "created_at": "2020-04-06T17:35:36.293Z",
-      "updated_at": "2020-04-06T17:35:36.293Z",
-      "deleted_at": null,
-      "type": {
-        "id": 5,
-        "name": {
-          "en": "Location",
-          "vi": "Vị trí"
-        },
-        "created_at": "2020-04-06T17:35:36.281Z",
-        "updated_at": "2020-04-06T17:35:36.281Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 38,
-      "name": {
-        "en": "Near park",
-        "vi": "Gần công viên"
-      },
-      "keyword": "near-park",
-      "facility_type_id": 5,
-      "created_at": "2020-04-06T17:35:36.296Z",
-      "updated_at": "2020-04-06T17:35:36.296Z",
-      "deleted_at": null,
-      "type": {
-        "id": 5,
-        "name": {
-          "en": "Location",
-          "vi": "Vị trí"
-        },
-        "created_at": "2020-04-06T17:35:36.281Z",
-        "updated_at": "2020-04-06T17:35:36.281Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 40,
-      "name": {
-        "en": "Airport shuttle",
-        "vi": "Đưa đón sân bay"
-      },
-      "keyword": "airport-shuttle",
-      "facility_type_id": 6,
-      "created_at": "2020-04-06T17:35:36.304Z",
-      "updated_at": "2020-04-06T17:35:36.304Z",
-      "deleted_at": null,
-      "type": {
-        "id": 6,
-        "name": {
-          "en": "Service",
-          "vi": "Dịch vụ"
-        },
-        "created_at": "2020-04-06T17:35:36.298Z",
-        "updated_at": "2020-04-06T17:35:36.298Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 41,
-      "name": {
-        "en": "Vehicle leasing",
-        "vi": "Cho thuê phương tiện"
-      },
-      "keyword": "vehicle-leasing",
-      "facility_type_id": 6,
-      "created_at": "2020-04-06T17:35:36.306Z",
-      "updated_at": "2020-04-06T17:35:36.306Z",
-      "deleted_at": null,
-      "type": {
-        "id": 6,
-        "name": {
-          "en": "Service",
-          "vi": "Dịch vụ"
-        },
-        "created_at": "2020-04-06T17:35:36.298Z",
-        "updated_at": "2020-04-06T17:35:36.298Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 43,
-      "name": {
-        "en": "Travel ticket",
-        "vi": "Dịch vụ bán vé"
-      },
-      "keyword": "travel-ticket",
-      "facility_type_id": 6,
-      "created_at": "2020-04-06T17:35:36.311Z",
-      "updated_at": "2020-04-06T17:35:36.311Z",
-      "deleted_at": null,
-      "type": {
-        "id": 6,
-        "name": {
-          "en": "Service",
-          "vi": "Dịch vụ"
-        },
-        "created_at": "2020-04-06T17:35:36.298Z",
-        "updated_at": "2020-04-06T17:35:36.298Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 44,
-      "name": {
-        "en": "Laundry",
-        "vi": "Giặt là"
-      },
-      "keyword": "laundry",
-      "facility_type_id": 6,
-      "created_at": "2020-04-06T17:35:36.314Z",
-      "updated_at": "2020-04-06T17:35:36.314Z",
-      "deleted_at": null,
-      "type": {
-        "id": 6,
-        "name": {
-          "en": "Service",
-          "vi": "Dịch vụ"
-        },
-        "created_at": "2020-04-06T17:35:36.298Z",
-        "updated_at": "2020-04-06T17:35:36.298Z",
-        "deleted_at": null
-      }
-    },
-    {
-      "id": 45,
-      "name": {
-        "en": "Luggage storage before check-in",
-        "vi": "Gửi đồ trước check-in"
-      },
-      "keyword": "luggage-storage-before-check-in",
-      "facility_type_id": 6,
-      "created_at": "2020-04-06T17:35:36.316Z",
-      "updated_at": "2020-04-06T17:35:36.316Z",
-      "deleted_at": null,
-      "type": {
-        "id": 6,
-        "name": {
-          "en": "Service",
-          "vi": "Dịch vụ"
-        },
-        "created_at": "2020-04-06T17:35:36.298Z",
-        "updated_at": "2020-04-06T17:35:36.298Z",
-        "deleted_at": null
-      }
-    }
-  ],
-  "address": {
-    "id": 30236,
-    "street": "Nội Khu Hưng Gia 1",
-    "street_no": "22",
-    "detail": "22,  Nội Khu Hưng Gia 1,  Phường Tân Phong,  Quận 7,  Thành phố Hồ Chí Minh,  Viet Nam",
-    "location_lat": "10.73329",
-    "location_long": "106.70964",
-    "province_id": 50,
-    "country_id": 242,
-    "district_id": 574,
-    "created_at": "2020-12-28T03:08:57.390Z",
-    "updated_at": "2020-12-28T03:08:57.390Z",
-    "deleted_at": null,
-    "ward_id": 9472,
-    "project_id": 2440,
-    "province": {
-      "id": 50,
-      "name": "Thành phố Hồ Chí Minh",
-      "country_id": 242,
-      "created_at": "2020-04-06T17:35:37.151Z",
-      "updated_at": "2020-04-06T17:35:37.151Z",
-      "deleted_at": null,
-      "slug": "thanh-pho-ho-chi-minh"
-    },
-    "country": {
-      "id": 242,
-      "name": "Vietnam",
-      "code": "VN",
-      "created_at": "2020-04-06T17:35:36.073Z",
-      "updated_at": "2021-11-11T04:33:12.147Z",
-      "deleted_at": null
-    },
-    "district": {
-      "id": 574,
-      "name": "Quận 7",
-      "province_id": 50,
-      "created_at": "2020-04-06T17:35:37.180Z",
-      "updated_at": "2020-04-06T17:35:37.180Z",
-      "deleted_at": null,
-      "slug": "quan-7"
-    },
-    "ward": {
-      "id": 9472,
-      "name": "Phường Tân Phong",
-      "district_id": 574,
-      "created_at": "2020-04-06T17:35:37.365Z",
-      "updated_at": "2020-04-06T17:35:37.365Z",
-      "deleted_at": null,
-      "slug": "phuong-tan-phong"
-    },
-    "project": {
-      "id": 2440,
-      "name": "Phú Mỹ Hưng",
-      "district_id": 574,
-      "created_at": "2020-04-06T17:35:38.576Z",
-      "updated_at": "2020-04-06T17:35:38.576Z",
-      "deleted_at": null
-    }
-  },
-  "house_rules": [
-    {
-      "id": 1,
-      "name": {
-        "en": "ID/Passport or Deposit Required",
-        "vi": "Yêu cầu chứng minh thư/ căn cước công dân/ hộ chiếu hoặc đặt cọc tại chỗ nghỉ"
-      },
-      "description": {
-        "en": "ID/Passport or Deposit Required",
-        "vi": "Yêu cầu chứng minh thư/ căn cước công dân/ hộ chiếu hoặc đặt cọc tại chỗ nghỉ"
-      },
-      "status": "active",
-      "created_at": "2020-04-06T17:35:36.342Z",
-      "updated_at": "2020-04-06T17:35:36.342Z",
-      "deleted_at": null,
-      "keyword": null
-    },
-    {
-      "id": 2,
-      "name": {
-        "en": "Avoid making noises after 10 pm",
-        "vi": "Hạn chế làm ồn sau 10 giờ tối"
-      },
-      "description": {
-        "en": "Avoid making noises after 10 pm",
-        "vi": "Hạn chế làm ồn sau 10 giờ tối"
-      },
-      "status": "active",
-      "created_at": "2020-04-06T17:35:36.342Z",
-      "updated_at": "2020-04-06T17:35:36.342Z",
-      "deleted_at": null,
-      "keyword": null
-    },
-    {
-      "id": 4,
-      "name": {
-        "en": "No smoking in shared spaces and common areas",
-        "vi": "Không hút thuốc ở khu vực chung"
-      },
-      "description": {
-        "en": "No smoking in shared spaces and common areas",
-        "vi": "Không hút thuốc ở khu vực chung"
-      },
-      "status": "active",
-      "created_at": "2020-04-06T17:35:36.342Z",
-      "updated_at": "2020-04-06T17:35:36.342Z",
-      "deleted_at": null,
-      "keyword": null
-    }
-  ],
-  "cancel_policy": {
-    "id": 2,
-    "name": {
-      "en": "Flexible",
-      "ja": "Flexible",
-      "vi": "Linh hoạt"
-    },
-    "content": {
-      "en": "Free cancellation if guests cancel within 48 hours of booking and at least 24 hours before check-in",
-      "ja": "Free cancellation if guests cancel within 48 hours of booking and at least 24 hours before check-in",
-      "vi": "Miễn phí huỷ phòng cho khách trong vòng 48h sau khi đặt phòng thành công và trước 1 ngày so với thời gian check-in."
-    },
-    "created_at": "2020-04-06T17:35:35.938Z",
-    "updated_at": "2020-04-06T17:35:35.938Z",
-    "deleted_at": null
-  },
-  "images": [
-    {
-      "id": 1107266,
-      "url": "users/276795/NsC7auTXkRAtbmUpu9Bi70ra.jpg"
-    },
-    {
-      "id": 1126519,
-      "url": "users/276795/qh3IJC2KYoVj0zM4A5KFQ2HA.jpg"
-    },
-    {
-      "id": 1107267,
-      "url": "users/276795/Xk93PqipjgMwoHlCnvLuCwIR.jpg"
-    },
-    {
-      "id": 1126520,
-      "url": "users/276795/xNkJsMJUP9nB7e0PhMqxSKfI.jpg"
-    },
-    {
-      "id": 1126524,
-      "url": "users/276795/DTVERkV5JZX8huus8jOClrdR.jpg"
-    },
-    {
-      "id": 1111435,
-      "url": "users/276795/bl_fOUQSZLmnrPV0jMyD_YfM.jpg"
-    },
-    {
-      "id": 1107263,
-      "url": "users/276795/OpZBg65-6F32VU6vy6i23aWD.jpg"
-    },
-    {
-      "id": 1107264,
-      "url": "users/276795/JK12t4VGHwPBFrityUTH0w0B.jpg"
-    },
-    {
-      "id": 1126518,
-      "url": "users/276795/2_JXyFQ7xrC4uCM6oi-6POv6.jpg"
-    },
-    {
-      "id": 1107262,
-      "url": "users/276795/u3vrFFRpXMQ_TPlq3_SUTszU.jpg"
-    }
-  ],
-  "accommodations": [
-    {
-      "id": 76062,
-      "property_id": 76063,
-      "host_id": 10157,
-      "quantity": 1,
-      "status": "verified",
-      "booking_type": "instant_book",
-      "rental_type": "private_room",
-      "area": 42,
-      "name": {
-        "en": "",
-        "ja": "",
-        "ko": "",
-        "vi": "The Royal Homies Suite Balcony - Phu My Hung (SECC, Crescent Mall, SC Vivo City)"
-      },
-      "short_description": {
-        "en": "",
-        "ja": "",
-        "ko": "",
-        "vi": ""
-      },
-      "room_information": {
-        "futon": 0,
-        "bunk_bed": 0,
-        "sofa_bed": 0,
-        "double_bed": 0,
-        "single_bed": 0,
-        "total_of_bed": 1,
-        "king_size_bed": 0,
-        "share_kitchen": 0,
-        "queen_size_bed": 0,
-        "share_bathroom": 0,
-        "private_kitchen": 1,
-        "private_bathroom": 1,
-        "total_of_bedroom": 1,
-        "total_of_kitchen": 1,
-        "total_of_bathroom": 1,
-        "super_king_size_bed": 0
-      },
-      "created_at": "2020-12-28T03:06:05.357Z",
-      "updated_at": "2021-10-09T04:16:27.397Z",
-      "deleted_at": null,
-      "reviews": {
-        "count": 0,
-        "total": 0,
-        "detail": {
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0,
-          "5": 0
-        },
-        "average": 0
-      },
-      "amenities": [
+    "photoTags": {
+      "data": [
         {
-          "id": 1,
-          "name": {
-            "en": "Wifi",
-            "vi": "Wifi"
-          },
-          "amenity_type_id": 1,
-          "created_at": "2020-04-06T17:35:35.597Z",
-          "updated_at": "2020-04-06T17:35:35.597Z",
-          "deleted_at": null,
-          "keyword": "wifi",
-          "type": {
-            "id": 1,
-            "name": {
-              "en": "General",
-              "vi": "Chung"
-            },
-            "created_at": "2020-04-06T17:35:35.591Z",
-            "updated_at": "2020-04-06T17:35:35.591Z",
-            "deleted_at": null
+          "id": 0,
+          "name": "Kh\u00e1c",
+          "normalized": "other",
+          "photos": {
+            "data": [
+              {
+                "id": 4561822,
+                "slide": true,
+                "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/5hwqxu3ptcAR3a04SgnS41Qm.jpg",
+                "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/5hwqxu3ptcAR3a04SgnS41Qm.jpg"
+              },
+              {
+                "id": 4561821,
+                "slide": true,
+                "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/RuMUrHbLIhmL3yPd4G7esKeQ.jpeg",
+                "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/RuMUrHbLIhmL3yPd4G7esKeQ.jpeg"
+              },
+              {
+                "id": 4561820,
+                "slide": true,
+                "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/EuQYIpzQKdfX1Hxl8gr-MNaL.jpeg",
+                "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/EuQYIpzQKdfX1Hxl8gr-MNaL.jpeg"
+              },
+              {
+                "id": 4561819,
+                "slide": true,
+                "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/oZrdWX6sgfr1wf_NeDYFLxEC.jpg",
+                "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/oZrdWX6sgfr1wf_NeDYFLxEC.jpg"
+              },
+              {
+                "id": 4561818,
+                "slide": true,
+                "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/LI6Ocg2_U-eG3GAs2NxOYl1T.jpg",
+                "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/LI6Ocg2_U-eG3GAs2NxOYl1T.jpg"
+              },
+              {
+                "id": 4561817,
+                "slide": true,
+                "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/VbYLt92MqQmxjJNij0T1KCis.jpg",
+                "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/VbYLt92MqQmxjJNij0T1KCis.jpg"
+              },
+              {
+                "id": 4561816,
+                "slide": true,
+                "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/cTtTMbAsCQ3A5wOb2BnAji8P.jpg",
+                "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/cTtTMbAsCQ3A5wOb2BnAji8P.jpg"
+              },
+              {
+                "id": 4561815,
+                "slide": true,
+                "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/KpK-pnRPt5emBFReuk1AHjrx.jpg",
+                "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/KpK-pnRPt5emBFReuk1AHjrx.jpg"
+              },
+              {
+                "id": 4561814,
+                "slide": true,
+                "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/RPLeP7KJkG8t6kc9nwZNkVDG.jpg",
+                "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/RPLeP7KJkG8t6kc9nwZNkVDG.jpg"
+              },
+              {
+                "id": 4561813,
+                "slide": true,
+                "photo_url": "https:\/\/cdn.luxstay.com\/users\/13315\/DO3a-hHUzD9KJdlGXOGCi7K5.jpg",
+                "thumbnail": "https:\/\/cdn.luxstay.com\/users\/13315\/DO3a-hHUzD9KJdlGXOGCi7K5.jpg"
+              }
+            ]
           }
-        },
+        }
+      ]
+    },
+    "amenities": {
+      "data": [
         {
-          "id": 2,
-          "name": {
-            "en": "Internet",
-            "vi": "Internet"
-          },
-          "amenity_type_id": 1,
-          "created_at": "2020-04-06T17:35:35.601Z",
-          "updated_at": "2020-04-06T17:35:35.601Z",
-          "deleted_at": null,
-          "keyword": "internet",
+          "id": 5,
+          "name": "BBQ",
+          "description": "",
+          "icon": "lst-icon-bbq-facilities",
           "type": {
-            "id": 1,
-            "name": {
-              "en": "General",
-              "vi": "Chung"
-            },
-            "created_at": "2020-04-06T17:35:35.591Z",
-            "updated_at": "2020-04-06T17:35:35.591Z",
-            "deleted_at": null
-          }
-        },
-        {
-          "id": 3,
-          "name": {
-            "en": "TV",
-            "vi": "TV"
-          },
-          "amenity_type_id": 1,
-          "created_at": "2020-04-06T17:35:35.604Z",
-          "updated_at": "2020-04-06T17:35:35.604Z",
-          "deleted_at": null,
-          "keyword": "tv",
-          "type": {
-            "id": 1,
-            "name": {
-              "en": "General",
-              "vi": "Chung"
-            },
-            "created_at": "2020-04-06T17:35:35.591Z",
-            "updated_at": "2020-04-06T17:35:35.591Z",
-            "deleted_at": null
-          }
-        },
-        {
-          "id": 4,
-          "name": {
-            "en": "Air-conditioner",
-            "vi": "Điều hòa"
-          },
-          "amenity_type_id": 1,
-          "created_at": "2020-04-06T17:35:35.607Z",
-          "updated_at": "2020-04-06T17:35:35.607Z",
-          "deleted_at": null,
-          "keyword": "air-conditioner",
-          "type": {
-            "id": 1,
-            "name": {
-              "en": "General",
-              "vi": "Chung"
-            },
-            "created_at": "2020-04-06T17:35:35.591Z",
-            "updated_at": "2020-04-06T17:35:35.591Z",
-            "deleted_at": null
+            "data": {
+              "id": 3,
+              "name": "Ti\u1ec7n \u00edch gi\u1ea3i tr\u00ed",
+              "description": ""
+            }
           }
         },
         {
           "id": 6,
-          "name": {
-            "en": "Private entrance",
-            "vi": "Lối đi riêng"
-          },
-          "amenity_type_id": 1,
-          "created_at": "2020-04-06T17:35:35.612Z",
-          "updated_at": "2020-04-06T17:35:35.612Z",
-          "deleted_at": null,
-          "keyword": "private-entrance",
+          "name": "B\u1ebfp \u0111i\u1ec7n",
+          "description": "",
+          "icon": "lst-icon-stove-electric",
           "type": {
-            "id": 1,
-            "name": {
-              "en": "General",
-              "vi": "Chung"
-            },
-            "created_at": "2020-04-06T17:35:35.591Z",
-            "updated_at": "2020-04-06T17:35:35.591Z",
-            "deleted_at": null
+            "data": {
+              "id": 2,
+              "name": "Ti\u1ec7n \u00edch b\u1ebfp",
+              "description": ""
+            }
           }
         },
         {
           "id": 7,
-          "name": {
-            "en": "Hair-dryer",
-            "vi": "Máy sấy"
-          },
-          "amenity_type_id": 1,
-          "created_at": "2020-04-06T17:35:35.614Z",
-          "updated_at": "2020-04-06T17:35:35.614Z",
-          "deleted_at": null,
-          "keyword": "hair-dryer",
+          "name": "L\u00f2 vi s\u00f3ng",
+          "description": "",
+          "icon": "lst-icon-microwave",
           "type": {
-            "id": 1,
-            "name": {
-              "en": "General",
-              "vi": "Chung"
-            },
-            "created_at": "2020-04-06T17:35:35.591Z",
-            "updated_at": "2020-04-06T17:35:35.591Z",
-            "deleted_at": null
+            "data": {
+              "id": 2,
+              "name": "Ti\u1ec7n \u00edch b\u1ebfp",
+              "description": ""
+            }
           }
         },
         {
-          "id": 14,
-          "name": {
-            "en": "Working desk",
-            "vi": "Bàn làm việc"
-          },
-          "amenity_type_id": 1,
-          "created_at": "2020-04-06T17:35:35.631Z",
-          "updated_at": "2020-04-06T17:35:35.631Z",
-          "deleted_at": null,
-          "keyword": "working-desk",
+          "id": 8,
+          "name": "T\u1ee7 l\u1ea1nh",
+          "description": "",
+          "icon": "lst-icon-refrigerator",
           "type": {
-            "id": 1,
-            "name": {
-              "en": "General",
-              "vi": "Chung"
-            },
-            "created_at": "2020-04-06T17:35:35.591Z",
-            "updated_at": "2020-04-06T17:35:35.591Z",
-            "deleted_at": null
+            "data": {
+              "id": 2,
+              "name": "Ti\u1ec7n \u00edch b\u1ebfp",
+              "description": ""
+            }
           }
         },
         {
-          "id": 16,
-          "name": {
-            "en": "Refrigerator",
-            "vi": "Tủ lạnh"
-          },
-          "amenity_type_id": 1,
-          "created_at": "2020-04-06T17:35:35.636Z",
-          "updated_at": "2020-04-06T17:35:35.636Z",
-          "deleted_at": null,
-          "keyword": "refrigerator",
+          "id": 17,
+          "name": "Wifi",
+          "description": "",
+          "icon": "lst-icon-hotel-wifi",
           "type": {
-            "id": 1,
-            "name": {
-              "en": "General",
-              "vi": "Chung"
-            },
-            "created_at": "2020-04-06T17:35:35.591Z",
-            "updated_at": "2020-04-06T17:35:35.591Z",
-            "deleted_at": null
-          }
-        },
-        {
-          "id": 18,
-          "name": {
-            "en": "Slippers",
-            "vi": "Dép"
-          },
-          "amenity_type_id": 1,
-          "created_at": "2020-04-06T17:35:35.641Z",
-          "updated_at": "2020-04-06T17:35:35.641Z",
-          "deleted_at": null,
-          "keyword": "slippers",
-          "type": {
-            "id": 1,
-            "name": {
-              "en": "General",
-              "vi": "Chung"
-            },
-            "created_at": "2020-04-06T17:35:35.591Z",
-            "updated_at": "2020-04-06T17:35:35.591Z",
-            "deleted_at": null
-          }
-        },
-        {
-          "id": 21,
-          "name": {
-            "en": "Sofa",
-            "vi": "Ghế sofa"
-          },
-          "amenity_type_id": 1,
-          "created_at": "2020-04-06T17:35:35.652Z",
-          "updated_at": "2020-04-06T17:35:35.652Z",
-          "deleted_at": null,
-          "keyword": "sofa",
-          "type": {
-            "id": 1,
-            "name": {
-              "en": "General",
-              "vi": "Chung"
-            },
-            "created_at": "2020-04-06T17:35:35.591Z",
-            "updated_at": "2020-04-06T17:35:35.591Z",
-            "deleted_at": null
+            "data": {
+              "id": 6,
+              "name": "Ti\u1ec7n \u00edch ",
+              "description": ""
+            }
           }
         },
         {
           "id": 22,
-          "name": {
-            "en": "220V voltage socket",
-            "vi": "Ổ cắm điện 220V"
-          },
-          "amenity_type_id": 1,
-          "created_at": "2020-04-06T17:35:35.673Z",
-          "updated_at": "2020-04-06T17:35:35.673Z",
-          "deleted_at": null,
-          "keyword": "220v-voltage-socket",
+          "name": "Ban C\u00f4ng",
+          "description": "",
+          "icon": "lst-icon-balcony-terrace",
           "type": {
-            "id": 1,
-            "name": {
-              "en": "General",
-              "vi": "Chung"
-            },
-            "created_at": "2020-04-06T17:35:35.591Z",
-            "updated_at": "2020-04-06T17:35:35.591Z",
-            "deleted_at": null
+            "data": {
+              "id": 5,
+              "name": "Ti\u1ec7n \u00edch ph\u00f2ng",
+              "description": ""
+            }
           }
         },
         {
-          "id": 24,
-          "name": {
-            "en": "Free drinkable water",
-            "vi": "Nước uống miễn phí"
-          },
-          "amenity_type_id": 1,
-          "created_at": "2020-04-06T17:35:35.678Z",
-          "updated_at": "2020-04-06T17:35:35.678Z",
-          "deleted_at": null,
-          "keyword": "free-drinkable-water",
+          "id": 27,
+          "name": "TV",
+          "description": "",
+          "icon": "lst-icon-tv",
           "type": {
-            "id": 1,
-            "name": {
-              "en": "General",
-              "vi": "Chung"
-            },
-            "created_at": "2020-04-06T17:35:35.591Z",
-            "updated_at": "2020-04-06T17:35:35.591Z",
-            "deleted_at": null
-          }
-        },
-        {
-          "id": 25,
-          "name": {
-            "en": "Wardrobe",
-            "vi": "Tủ quần áo"
-          },
-          "amenity_type_id": 2,
-          "created_at": "2020-04-06T17:35:35.684Z",
-          "updated_at": "2020-04-06T17:35:35.684Z",
-          "deleted_at": null,
-          "keyword": "wardrobe",
-          "type": {
-            "id": 2,
-            "name": {
-              "en": "Bedroom",
-              "vi": "Phòng ngủ"
-            },
-            "created_at": "2020-04-06T17:35:35.681Z",
-            "updated_at": "2020-04-06T17:35:35.681Z",
-            "deleted_at": null
-          }
-        },
-        {
-          "id": 26,
-          "name": {
-            "en": "Clothes hangers",
-            "vi": "Móc treo quần áo"
-          },
-          "amenity_type_id": 2,
-          "created_at": "2020-04-06T17:35:35.686Z",
-          "updated_at": "2020-04-06T17:35:35.686Z",
-          "deleted_at": null,
-          "keyword": "clothes-hangers",
-          "type": {
-            "id": 2,
-            "name": {
-              "en": "Bedroom",
-              "vi": "Phòng ngủ"
-            },
-            "created_at": "2020-04-06T17:35:35.681Z",
-            "updated_at": "2020-04-06T17:35:35.681Z",
-            "deleted_at": null
-          }
-        },
-        {
-          "id": 28,
-          "name": {
-            "en": "Makeup desk",
-            "vi": "Bàn trang điểm"
-          },
-          "amenity_type_id": 2,
-          "created_at": "2020-04-06T17:35:35.691Z",
-          "updated_at": "2020-04-06T17:35:35.691Z",
-          "deleted_at": null,
-          "keyword": "makeup-desk",
-          "type": {
-            "id": 2,
-            "name": {
-              "en": "Bedroom",
-              "vi": "Phòng ngủ"
-            },
-            "created_at": "2020-04-06T17:35:35.681Z",
-            "updated_at": "2020-04-06T17:35:35.681Z",
-            "deleted_at": null
-          }
-        },
-        {
-          "id": 30,
-          "name": {
-            "en": "Shower booth",
-            "vi": "Buồng tắm đứng"
-          },
-          "amenity_type_id": 3,
-          "created_at": "2020-04-06T17:35:35.698Z",
-          "updated_at": "2020-04-06T17:35:35.698Z",
-          "deleted_at": null,
-          "keyword": "shower-booth",
-          "type": {
-            "id": 3,
-            "name": {
-              "en": "Bathroom",
-              "vi": "Phòng tắm"
-            },
-            "created_at": "2020-04-06T17:35:35.694Z",
-            "updated_at": "2020-04-06T17:35:35.694Z",
-            "deleted_at": null
-          }
-        },
-        {
-          "id": 31,
-          "name": {
-            "en": "Toilet",
-            "vi": "Toilet"
-          },
-          "amenity_type_id": 3,
-          "created_at": "2020-04-06T17:35:35.701Z",
-          "updated_at": "2020-04-06T17:35:35.701Z",
-          "deleted_at": null,
-          "keyword": "toilet",
-          "type": {
-            "id": 3,
-            "name": {
-              "en": "Bathroom",
-              "vi": "Phòng tắm"
-            },
-            "created_at": "2020-04-06T17:35:35.694Z",
-            "updated_at": "2020-04-06T17:35:35.694Z",
-            "deleted_at": null
-          }
-        },
-        {
-          "id": 33,
-          "name": {
-            "en": "Towels",
-            "vi": "Khăn tắm"
-          },
-          "amenity_type_id": 3,
-          "created_at": "2020-04-06T17:35:35.706Z",
-          "updated_at": "2020-04-06T17:35:35.706Z",
-          "deleted_at": null,
-          "keyword": "towels",
-          "type": {
-            "id": 3,
-            "name": {
-              "en": "Bathroom",
-              "vi": "Phòng tắm"
-            },
-            "created_at": "2020-04-06T17:35:35.694Z",
-            "updated_at": "2020-04-06T17:35:35.694Z",
-            "deleted_at": null
-          }
-        },
-        {
-          "id": 34,
-          "name": {
-            "en": "Shampoo, Hair conditioner",
-            "vi": "Dầu gội, dầu xả"
-          },
-          "amenity_type_id": 3,
-          "created_at": "2020-04-06T17:35:35.709Z",
-          "updated_at": "2020-04-06T17:35:35.709Z",
-          "deleted_at": null,
-          "keyword": "shampoo-hair-conditioner",
-          "type": {
-            "id": 3,
-            "name": {
-              "en": "Bathroom",
-              "vi": "Phòng tắm"
-            },
-            "created_at": "2020-04-06T17:35:35.694Z",
-            "updated_at": "2020-04-06T17:35:35.694Z",
-            "deleted_at": null
-          }
-        },
-        {
-          "id": 35,
-          "name": {
-            "en": "Body wash/Soap",
-            "vi": "Sữa tắm/Xà phòng"
-          },
-          "amenity_type_id": 3,
-          "created_at": "2020-04-06T17:35:35.712Z",
-          "updated_at": "2020-04-06T17:35:35.712Z",
-          "deleted_at": null,
-          "keyword": "body-wash-soap",
-          "type": {
-            "id": 3,
-            "name": {
-              "en": "Bathroom",
-              "vi": "Phòng tắm"
-            },
-            "created_at": "2020-04-06T17:35:35.694Z",
-            "updated_at": "2020-04-06T17:35:35.694Z",
-            "deleted_at": null
+            "data": {
+              "id": 6,
+              "name": "Ti\u1ec7n \u00edch ",
+              "description": ""
+            }
           }
         },
         {
           "id": 36,
-          "name": {
-            "en": "Towel paper",
-            "vi": "Giấy vệ sinh"
-          },
-          "amenity_type_id": 3,
-          "created_at": "2020-04-06T17:35:35.714Z",
-          "updated_at": "2020-04-06T17:35:35.714Z",
-          "deleted_at": null,
-          "keyword": "towel-paper",
+          "name": "Ph\u00f9 h\u1ee3p v\u1edbi tr\u1ebb nh\u1ecf",
+          "description": "",
+          "icon": "lst-icon-family-room",
           "type": {
-            "id": 3,
-            "name": {
-              "en": "Bathroom",
-              "vi": "Phòng tắm"
-            },
-            "created_at": "2020-04-06T17:35:35.694Z",
-            "updated_at": "2020-04-06T17:35:35.694Z",
-            "deleted_at": null
-          }
-        },
-        {
-          "id": 37,
-          "name": {
-            "en": "Toothpaste, Toothbrush",
-            "vi": "Kem/Bàn chải đánh răng"
-          },
-          "amenity_type_id": 3,
-          "created_at": "2020-04-06T17:35:35.717Z",
-          "updated_at": "2020-04-06T17:35:35.717Z",
-          "deleted_at": null,
-          "keyword": "toothpaste-toothbrush",
-          "type": {
-            "id": 3,
-            "name": {
-              "en": "Bathroom",
-              "vi": "Phòng tắm"
-            },
-            "created_at": "2020-04-06T17:35:35.694Z",
-            "updated_at": "2020-04-06T17:35:35.694Z",
-            "deleted_at": null
+            "data": {
+              "id": 1,
+              "name": "Ti\u1ec7n \u00edch gia \u0111\u00ecnh",
+              "description": ""
+            }
           }
         },
         {
           "id": 38,
-          "name": {
-            "en": "Shower cap",
-            "vi": "Mũ tắm"
-          },
-          "amenity_type_id": 3,
-          "created_at": "2020-04-06T17:35:35.719Z",
-          "updated_at": "2020-04-06T17:35:35.719Z",
-          "deleted_at": null,
-          "keyword": "shower-cap",
+          "name": "M\u00e1y gi\u1eb7t",
+          "description": "",
+          "icon": "lst-icon-washer",
           "type": {
-            "id": 3,
-            "name": {
-              "en": "Bathroom",
-              "vi": "Phòng tắm"
-            },
-            "created_at": "2020-04-06T17:35:35.694Z",
-            "updated_at": "2020-04-06T17:35:35.694Z",
-            "deleted_at": null
+            "data": {
+              "id": 6,
+              "name": "Ti\u1ec7n \u00edch ",
+              "description": ""
+            }
           }
         },
         {
           "id": 39,
-          "name": {
-            "en": "Free toiletries",
-            "vi": "Đồ vệ sinh cá nhân miễn phí"
-          },
-          "amenity_type_id": 3,
-          "created_at": "2020-04-06T17:35:35.721Z",
-          "updated_at": "2020-04-06T17:35:35.721Z",
-          "deleted_at": null,
-          "keyword": "free-toiletries",
+          "name": "\u0110\u1ec7m b\u1ed5 sung",
+          "description": "",
+          "icon": "lst-icon-room-promotion",
           "type": {
-            "id": 3,
-            "name": {
-              "en": "Bathroom",
-              "vi": "Phòng tắm"
-            },
-            "created_at": "2020-04-06T17:35:35.694Z",
-            "updated_at": "2020-04-06T17:35:35.694Z",
-            "deleted_at": null
+            "data": {
+              "id": 1,
+              "name": "Ti\u1ec7n \u00edch gia \u0111\u00ecnh",
+              "description": ""
+            }
           }
         },
         {
-          "id": 40,
-          "name": {
-            "en": "Bidet sprayer",
-            "vi": "Vòi xịt"
-          },
-          "amenity_type_id": 3,
-          "created_at": "2020-04-06T17:35:35.724Z",
-          "updated_at": "2020-04-06T17:35:35.724Z",
-          "deleted_at": null,
-          "keyword": "bidet-sprayer",
+          "id": 42,
+          "name": "D\u1ea7u g\u1ed9i, d\u1ea7u x\u1ea3",
+          "description": "",
+          "icon": "lst-icon-shampoo",
           "type": {
-            "id": 3,
-            "name": {
-              "en": "Bathroom",
-              "vi": "Phòng tắm"
-            },
-            "created_at": "2020-04-06T17:35:35.694Z",
-            "updated_at": "2020-04-06T17:35:35.694Z",
-            "deleted_at": null
+            "data": {
+              "id": 6,
+              "name": "Ti\u1ec7n \u00edch ",
+              "description": ""
+            }
           }
         },
         {
-          "id": 41,
-          "name": {
-            "en": "Electric stove/Magnetic stove",
-            "vi": "Bếp điện/Bếp từ"
-          },
-          "amenity_type_id": 4,
-          "created_at": "2020-04-06T17:35:35.728Z",
-          "updated_at": "2020-04-06T17:35:35.728Z",
-          "deleted_at": null,
-          "keyword": "electric-stove-magnetic-stove",
+          "id": 44,
+          "name": "Gi\u1ea5y v\u1ec7 sinh",
+          "description": "",
+          "icon": "lst-icon-toilet-paper-1",
           "type": {
-            "id": 4,
-            "name": {
-              "en": "Kitchen",
-              "vi": "Phòng bếp"
-            },
-            "created_at": "2020-04-06T17:35:35.726Z",
-            "updated_at": "2020-04-06T17:35:35.726Z",
-            "deleted_at": null
+            "data": {
+              "id": 6,
+              "name": "Ti\u1ec7n \u00edch ",
+              "description": ""
+            }
           }
         },
         {
-          "id": 46,
-          "name": {
-            "en": "Kettle",
-            "vi": "Ấm đun nước"
-          },
-          "amenity_type_id": 4,
-          "created_at": "2020-04-06T17:35:35.746Z",
-          "updated_at": "2020-04-06T17:35:35.746Z",
-          "deleted_at": null,
-          "keyword": "kettle",
+          "id": 53,
+          "name": "Kh\u0103n t\u1eafm",
+          "description": "",
+          "icon": "lst-icon-towels",
           "type": {
-            "id": 4,
-            "name": {
-              "en": "Kitchen",
-              "vi": "Phòng bếp"
-            },
-            "created_at": "2020-04-06T17:35:35.726Z",
-            "updated_at": "2020-04-06T17:35:35.726Z",
-            "deleted_at": null
-          }
-        },
-        {
-          "id": 49,
-          "name": {
-            "en": "Microwave oven",
-            "vi": "Lò vi sóng"
-          },
-          "amenity_type_id": 4,
-          "created_at": "2020-04-06T17:35:35.752Z",
-          "updated_at": "2020-04-06T17:35:35.752Z",
-          "deleted_at": null,
-          "keyword": "microwave-oven",
-          "type": {
-            "id": 4,
-            "name": {
-              "en": "Kitchen",
-              "vi": "Phòng bếp"
-            },
-            "created_at": "2020-04-06T17:35:35.726Z",
-            "updated_at": "2020-04-06T17:35:35.726Z",
-            "deleted_at": null
-          }
-        },
-        {
-          "id": 51,
-          "name": {
-            "en": "Cookwares",
-            "vi": "Dụng cụ nấu ăn"
-          },
-          "amenity_type_id": 4,
-          "created_at": "2020-04-06T17:35:35.757Z",
-          "updated_at": "2020-04-06T17:35:35.757Z",
-          "deleted_at": null,
-          "keyword": "cookwares",
-          "type": {
-            "id": 4,
-            "name": {
-              "en": "Kitchen",
-              "vi": "Phòng bếp"
-            },
-            "created_at": "2020-04-06T17:35:35.726Z",
-            "updated_at": "2020-04-06T17:35:35.726Z",
-            "deleted_at": null
+            "data": {
+              "id": 6,
+              "name": "Ti\u1ec7n \u00edch ",
+              "description": ""
+            }
           }
         },
         {
           "id": 55,
-          "name": {
-            "en": "Cups",
-            "vi": "Ly cốc"
-          },
-          "amenity_type_id": 4,
-          "created_at": "2020-04-06T17:35:35.767Z",
-          "updated_at": "2020-04-06T17:35:35.767Z",
-          "deleted_at": null,
-          "keyword": "cups",
+          "name": "Kem \u0111\u00e1nh r\u0103ng",
+          "description": "",
+          "icon": "lst-icon-uniF12D",
           "type": {
-            "id": 4,
-            "name": {
-              "en": "Kitchen",
-              "vi": "Phòng bếp"
-            },
-            "created_at": "2020-04-06T17:35:35.726Z",
-            "updated_at": "2020-04-06T17:35:35.726Z",
-            "deleted_at": null
+            "data": {
+              "id": 6,
+              "name": "Ti\u1ec7n \u00edch ",
+              "description": ""
+            }
           }
         },
         {
-          "id": 57,
-          "name": {
-            "en": "Tissue",
-            "vi": "Giấy ăn"
-          },
-          "amenity_type_id": 4,
-          "created_at": "2020-04-06T17:35:35.772Z",
-          "updated_at": "2020-04-06T17:35:35.772Z",
-          "deleted_at": null,
-          "keyword": "tissue",
+          "id": 59,
+          "name": "X\u00e0 ph\u00f2ng t\u1eafm",
+          "description": "",
+          "icon": "lst-icon-uniF126",
           "type": {
-            "id": 4,
-            "name": {
-              "en": "Kitchen",
-              "vi": "Phòng bếp"
-            },
-            "created_at": "2020-04-06T17:35:35.726Z",
-            "updated_at": "2020-04-06T17:35:35.726Z",
-            "deleted_at": null
+            "data": {
+              "id": 6,
+              "name": "Ti\u1ec7n \u00edch ",
+              "description": ""
+            }
           }
         },
         {
-          "id": 58,
-          "name": {
-            "en": "Fire alarm",
-            "vi": "Còi báo cháy"
-          },
-          "amenity_type_id": 5,
-          "created_at": "2020-04-06T17:35:35.778Z",
-          "updated_at": "2020-04-06T17:35:35.778Z",
-          "deleted_at": null,
-          "keyword": "fire-alarm",
+          "id": 66,
+          "name": "Smart tivi",
+          "description": "",
+          "icon": "lst-icon-smart-tv",
           "type": {
-            "id": 5,
-            "name": {
-              "en": "Safety",
-              "vi": "Thiết bị an toàn"
-            },
-            "created_at": "2020-04-06T17:35:35.775Z",
-            "updated_at": "2020-04-06T17:35:35.775Z",
-            "deleted_at": null
+            "data": {
+              "id": 7,
+              "name": "Ti\u1ec7n \u00edch n\u1ed5i b\u1eadt",
+              "description": "Ti\u1ec7n \u00edch n\u1ed5i b\u1eadt"
+            }
           }
         },
         {
-          "id": 60,
-          "name": {
-            "en": "Anti-theft lock",
-            "vi": "Khóa chống trộm"
-          },
-          "amenity_type_id": 5,
-          "created_at": "2020-04-06T17:35:35.782Z",
-          "updated_at": "2020-04-06T17:35:35.782Z",
-          "deleted_at": null,
-          "keyword": "anti-theft-lock",
+          "id": 69,
+          "name": "M\u00e1y s\u1ea5y",
+          "description": "",
+          "icon": "lst-icon-hair-dryer",
           "type": {
-            "id": 5,
-            "name": {
-              "en": "Safety",
-              "vi": "Thiết bị an toàn"
-            },
-            "created_at": "2020-04-06T17:35:35.775Z",
-            "updated_at": "2020-04-06T17:35:35.775Z",
-            "deleted_at": null
+            "data": {
+              "id": 6,
+              "name": "Ti\u1ec7n \u00edch ",
+              "description": ""
+            }
           }
         },
         {
-          "id": 62,
-          "name": {
-            "en": "Balcony",
-            "vi": "Ban công"
-          },
-          "amenity_type_id": 6,
-          "created_at": "2020-04-06T17:35:35.791Z",
-          "updated_at": "2020-04-06T17:35:35.791Z",
-          "deleted_at": null,
-          "keyword": "balcony",
+          "id": 70,
+          "name": "Internet",
+          "description": "M\u1ea1ng gia \u0111\u00ecnh",
+          "icon": "icon_internet",
           "type": {
-            "id": 6,
-            "name": {
-              "en": "Special amenities",
-              "vi": "Tiện nghi đặc biệt"
-            },
-            "created_at": "2020-04-06T17:35:35.788Z",
-            "updated_at": "2020-04-06T17:35:35.788Z",
-            "deleted_at": null
+            "data": {
+              "id": 6,
+              "name": "Ti\u1ec7n \u00edch ",
+              "description": ""
+            }
           }
         },
         {
-          "id": 72,
-          "name": {
-            "en": "Smart TV/Internet TV",
-            "vi": "Smart TV/Internet TV"
-          },
-          "amenity_type_id": 6,
-          "created_at": "2020-04-06T17:35:35.821Z",
-          "updated_at": "2020-04-06T17:35:35.821Z",
-          "deleted_at": null,
-          "keyword": "smart-tv-internet-tv",
+          "id": 71,
+          "name": "C\u1eeda s\u1ed5",
+          "description": "C\u1eeda s\u1ed5",
+          "icon": "icon_windows",
           "type": {
-            "id": 6,
-            "name": {
-              "en": "Special amenities",
-              "vi": "Tiện nghi đặc biệt"
-            },
-            "created_at": "2020-04-06T17:35:35.788Z",
-            "updated_at": "2020-04-06T17:35:35.788Z",
-            "deleted_at": null
+            "data": {
+              "id": 5,
+              "name": "Ti\u1ec7n \u00edch ph\u00f2ng",
+              "description": ""
+            }
           }
         }
-      ],
-      "images": [
+      ]
+    },
+    "amenityTypes": {
+      "data": [
         {
-          "id": 1107268,
-          "url": "users/276795/xm__tUJZtrtrbSEvr1xtF74J.jpg"
-        }
-      ],
-      "rules": [
-        {
-          "id": 1,
-          "name": {
-            "en": "Smoking",
-            "vi": "Hút thuốc"
-          },
-          "keyword": "smoking",
-          "description": null,
-          "created_at": "2020-04-06T17:35:36.489Z",
-          "updated_at": "2020-04-06T17:35:36.489Z",
-          "deleted_at": null,
-          "value": "not_allowed"
+          "id": 6,
+          "name": "Ti\u1ec7n \u00edch ",
+          "description": "",
+          "amenities": {
+            "data": [
+              {
+                "id": 17,
+                "name": "Wifi",
+                "description": "",
+                "icon": "lst-icon-hotel-wifi"
+              },
+              {
+                "id": 27,
+                "name": "TV",
+                "description": "",
+                "icon": "lst-icon-tv"
+              },
+              {
+                "id": 38,
+                "name": "M\u00e1y gi\u1eb7t",
+                "description": "",
+                "icon": "lst-icon-washer"
+              },
+              {
+                "id": 42,
+                "name": "D\u1ea7u g\u1ed9i, d\u1ea7u x\u1ea3",
+                "description": "",
+                "icon": "lst-icon-shampoo"
+              },
+              {
+                "id": 44,
+                "name": "Gi\u1ea5y v\u1ec7 sinh",
+                "description": "",
+                "icon": "lst-icon-toilet-paper-1"
+              },
+              {
+                "id": 53,
+                "name": "Kh\u0103n t\u1eafm",
+                "description": "",
+                "icon": "lst-icon-towels"
+              },
+              {
+                "id": 55,
+                "name": "Kem \u0111\u00e1nh r\u0103ng",
+                "description": "",
+                "icon": "lst-icon-uniF12D"
+              },
+              {
+                "id": 59,
+                "name": "X\u00e0 ph\u00f2ng t\u1eafm",
+                "description": "",
+                "icon": "lst-icon-uniF126"
+              },
+              {
+                "id": 69,
+                "name": "M\u00e1y s\u1ea5y",
+                "description": "",
+                "icon": "lst-icon-hair-dryer"
+              },
+              {
+                "id": 70,
+                "name": "Internet",
+                "description": "M\u1ea1ng gia \u0111\u00ecnh",
+                "icon": "icon_internet"
+              }
+            ]
+          }
         },
         {
           "id": 2,
-          "name": {
-            "en": "Pets",
-            "vi": "Thú cưng"
-          },
-          "keyword": "pets",
-          "description": null,
-          "created_at": "2020-04-06T17:35:36.489Z",
-          "updated_at": "2020-04-06T17:35:36.489Z",
-          "deleted_at": null,
-          "value": "not_allowed"
+          "name": "Ti\u1ec7n \u00edch b\u1ebfp",
+          "description": "",
+          "amenities": {
+            "data": [
+              {
+                "id": 6,
+                "name": "B\u1ebfp \u0111i\u1ec7n",
+                "description": "",
+                "icon": "lst-icon-stove-electric"
+              },
+              {
+                "id": 7,
+                "name": "L\u00f2 vi s\u00f3ng",
+                "description": "",
+                "icon": "lst-icon-microwave"
+              },
+              {
+                "id": 8,
+                "name": "T\u1ee7 l\u1ea1nh",
+                "description": "",
+                "icon": "lst-icon-refrigerator"
+              }
+            ]
+          }
         },
         {
           "id": 3,
-          "name": {
-            "en": "Party",
-            "vi": "Tổ chức tiệc"
-          },
-          "keyword": "party",
-          "description": null,
-          "created_at": "2020-04-06T17:35:36.489Z",
-          "updated_at": "2020-04-06T17:35:36.489Z",
-          "deleted_at": null,
-          "value": "not_allowed"
-        },
-        {
-          "id": 4,
-          "name": {
-            "en": "Cooking",
-            "vi": "Nấu ăn"
-          },
-          "keyword": "cooking",
-          "description": null,
-          "created_at": "2020-04-06T17:35:36.489Z",
-          "updated_at": "2020-04-06T17:35:36.489Z",
-          "deleted_at": null,
-          "value": "allowed_free"
+          "name": "Ti\u1ec7n \u00edch gi\u1ea3i tr\u00ed",
+          "description": "",
+          "amenities": {
+            "data": [
+              {
+                "id": 5,
+                "name": "BBQ",
+                "description": "",
+                "icon": "lst-icon-bbq-facilities"
+              }
+            ]
+          }
         },
         {
           "id": 5,
-          "name": {
-            "en": "Commercial shooting",
-            "vi": "Chụp ảnh thương mại"
-          },
-          "keyword": "commercial-shooting",
-          "description": null,
-          "created_at": "2020-04-06T17:35:36.489Z",
-          "updated_at": "2020-04-06T17:35:36.489Z",
-          "deleted_at": null,
-          "value": "allowed_free"
+          "name": "Ti\u1ec7n \u00edch ph\u00f2ng",
+          "description": "",
+          "amenities": {
+            "data": [
+              {
+                "id": 22,
+                "name": "Ban C\u00f4ng",
+                "description": "",
+                "icon": "lst-icon-balcony-terrace"
+              },
+              {
+                "id": 71,
+                "name": "C\u1eeda s\u1ed5",
+                "description": "C\u1eeda s\u1ed5",
+                "icon": "icon_windows"
+              }
+            ]
+          }
+        },
+        {
+          "id": 7,
+          "name": "Ti\u1ec7n \u00edch n\u1ed5i b\u1eadt",
+          "description": "Ti\u1ec7n \u00edch n\u1ed5i b\u1eadt",
+          "amenities": {
+            "data": [
+              {
+                "id": 66,
+                "name": "Smart tivi",
+                "description": "",
+                "icon": "lst-icon-smart-tv"
+              }
+            ]
+          }
+        },
+        {
+          "id": 1,
+          "name": "Ti\u1ec7n \u00edch gia \u0111\u00ecnh",
+          "description": "",
+          "amenities": {
+            "data": [
+              {
+                "id": 36,
+                "name": "Ph\u00f9 h\u1ee3p v\u1edbi tr\u1ebb nh\u1ecf",
+                "description": "",
+                "icon": "lst-icon-family-room"
+              },
+              {
+                "id": 39,
+                "name": "\u0110\u1ec7m b\u1ed5 sung",
+                "description": "",
+                "icon": "lst-icon-room-promotion"
+              }
+            ]
+          }
         }
-      ],
-      "price": {
-        "max_guest": 2,
-        "weekday": 899000,
-        "weekend": 999000,
-        "occupancy_information": {
-          "number_of_adults": 2,
-          "number_of_infants": 0,
-          "number_of_children": 1
+      ]
+    },
+    "destinations": {
+      "data": [
+        {
+          "id": 1,
+          "name": "Vietnam",
+          "url": "vietnam"
+        },
+        {
+          "id": 2716,
+          "name": "Lam Dong",
+          "url": "vietnam\/lam-dong"
+        },
+        {
+          "id": 2767,
+          "name": "Da Lat",
+          "url": "vietnam\/lam-dong\/da-lat"
+        },
+        {
+          "id": 2773,
+          "name": "Phuong 3",
+          "url": "vietnam\/lam-dong\/da-lat\/phuong-3"
         }
-      }
+      ]
+    },
+    "coupon": {
+      "data": []
     }
-  ]
+  },
+  "code": 200,
+  "request_id": "fd113f253c22e30ed5dfc86d32a30210"
 }
-

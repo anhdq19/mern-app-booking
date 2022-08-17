@@ -15,7 +15,9 @@
 }
 
 .logo {
+    font-family: 'DynaPuff', cursive;
     font-weight: 600;
+    font-size: 2rem;
 }
 
 .navButton {
