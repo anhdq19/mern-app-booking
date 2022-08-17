@@ -15,12 +15,14 @@
 }
 
 .logo {
+    margin-top: 20px;
     font-family: 'DynaPuff', cursive;
     font-weight: 600;
     font-size: 2rem;
 }
 
 .navButton {
+    margin-top: 20px;
     margin-left: 20px;
     border: none;
     padding: 5px 10px;
