@@ -19,6 +19,8 @@
     padding: 20px;
     border-radius: 10px;
     position: sticky;
+    height: max-content;
+
 }
 
 .listTitle {
@@ -93,10 +95,12 @@
     width: 100%;
     font-weight: 500;
     cursor: pointer;
-}.listSearch > button:active {
-   opacity: 80%;
-     background-color: white;
-     color: #0071c2;
+}
+
+.listSearch > button:active {
+    opacity: 80%;
+    background-color: white;
+    color: #0071c2;
 
 }
 

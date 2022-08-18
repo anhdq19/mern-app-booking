@@ -5,6 +5,7 @@ import "./list.css"
 import {useLocation} from "react-router-dom";
 import DateRange from "react-date-range/dist/components/DateRange";
 import {format} from "date-fns";
+import SearchItem from "../../components/searchItem/SearchItem";
 
 function List() {
     const location = useLocation();
@@ -16,7 +17,6 @@ function List() {
     const handleOpenDateRange = () => {
         setOpenDateRange(!openDateRange)
     }
-    console.log(location)
     return (<div>
         <Navbar/>
         <Header type='list'/>
@@ -92,7 +92,12 @@ function List() {
                     <button>Search</button>
                 </div>
                 <div className="listResult">
-
+                    <SearchItem/>
+                    <SearchItem/>
+                    <SearchItem/>
+                    <SearchItem/>
+                    <SearchItem/>
+                    <SearchItem/>
                 </div>
             </div>
         </div>
