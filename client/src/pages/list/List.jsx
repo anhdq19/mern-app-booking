@@ -40,14 +40,12 @@ function List() {
                         {openDateRange &&
                             <div onBlur={handleOpenDateRange}>
                                 <DateRange
-
                                     editableDateInputs={true}
                                     onChange={item => setDate([item.selection])}
                                     moveRangeOnFirstSelection={false}
                                     ranges={date}
                                     className='date'
                                     minDate={new Date()}
-
                                 />
                             </div>
                         }
